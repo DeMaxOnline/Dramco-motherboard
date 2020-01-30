@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="title">
+    <h2>
+      {{ sensor?.name[translateService.currentLang] }}
+    </h2>
+    <span>
+        <app-infobox [matTooltip]="sensor?.info[translateService.currentLang]"></app-infobox>
+      </span>
+  </div>
+  <div class="sensors">
+    <div class="sensor" *ngFor="let metric of sensor?.metrics | keyvalue; let i = index">
+      <app-metric [metric]="metric.value" ></app-metric>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,2 @@
+sensors: 
+  0x00: !!inc/file sound-level-sensor.yaml

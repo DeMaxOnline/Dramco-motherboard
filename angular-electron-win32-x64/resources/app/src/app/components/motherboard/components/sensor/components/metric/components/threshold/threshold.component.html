@@ -1,0 +1,10 @@
+<div>
+  <label>
+    <input type="checkbox" [(ngModel)]="enabled">
+    {{ 'PAGES.MOTHERBOARD.SENSOR.METRIC.THRESHOLD.ENABLE.TITLE' | translate }}
+  </label>
+  <ng5-slider [(value)]="minimumThreshold" [(highValue)]="maximumThreshold" [options]="options"
+              (highValueChange)="this.thresholdSetMaximum()"
+  ></ng5-slider>
+</div>
+

@@ -1,0 +1,13 @@
+C:\Users\Maxime\source\repos\1819ProjectGDI\1819ProjectGDI\bin\Debug\1819ProjectGDI.exe.config
+C:\Users\Maxime\source\repos\1819ProjectGDI\1819ProjectGDI\bin\Debug\1819ProjectGDI.exe
+C:\Users\Maxime\source\repos\1819ProjectGDI\1819ProjectGDI\bin\Debug\1819ProjectGDI.pdb
+C:\Users\Maxime\source\repos\1819ProjectGDI\1819ProjectGDI\obj\Debug\_1819ProjectGDI.Panel.resources
+C:\Users\Maxime\source\repos\1819ProjectGDI\1819ProjectGDI\obj\Debug\_1819ProjectGDI.Properties.Resources.resources
+C:\Users\Maxime\source\repos\1819ProjectGDI\1819ProjectGDI\obj\Debug\_1819ProjectGDI.TopBar.resources
+C:\Users\Maxime\source\repos\1819ProjectGDI\1819ProjectGDI\obj\Debug\1819ProjectGDI.csproj.GenerateResource.cache
+C:\Users\Maxime\source\repos\1819ProjectGDI\1819ProjectGDI\obj\Debug\1819ProjectGDI.csproj.CoreCompileInputs.cache
+C:\Users\Maxime\source\repos\1819ProjectGDI\1819ProjectGDI\obj\Debug\1819ProjectGDI.exe
+C:\Users\Maxime\source\repos\1819ProjectGDI\1819ProjectGDI\obj\Debug\1819ProjectGDI.pdb
+C:\Users\Maxime\source\repos\1819ProjectGDI\1819ProjectGDI\obj\Debug\_1819ProjectGDI.Shape.BaseShape.resources
+C:\Users\Maxime\source\repos\1819ProjectGDI\1819ProjectGDI\obj\Debug\_1819ProjectGDI.Main.resources
+C:\Users\Maxime\source\repos\1819ProjectGDI\1819ProjectGDI\obj\Debug\_1819ProjectGDI.Shapes.Circle.resources

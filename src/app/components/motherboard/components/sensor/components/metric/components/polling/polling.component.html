@@ -1,0 +1,14 @@
+<div>
+  <h4>
+    {{'PAGES.MOTHERBOARD.SENSOR.METRIC.POLLING.NAME'| translate}}
+  </h4>
+  <mat-form-field class="example-full-width">
+    <span>{{ 'PAGES.MOTHERBOARD.SENSOR.METRIC.POLLING.TITLE' | translate }} {{this.unit}}</span>
+    <label>
+      <input matInput [min]="minimum" type="number" [(ngModel)]="valueUser">
+    </label>
+  </mat-form-field>
+  <br>
+  <span *ngIf="hasError">{{'PAGES.MOTHERBOARD.SENSOR.METRIC.POLLING.ERRORS.WRONG_INPUT' | translate}}</span>
+</div>
+

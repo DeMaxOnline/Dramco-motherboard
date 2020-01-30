@@ -1,0 +1,21 @@
+<div>
+  <div class="title">
+    <h3>
+      {{ metric.quantity[translate.currentLang] }} ({{metric.unit}})
+    </h3>
+    <app-infobox [matTooltip]="metric.info[this.translate.currentLang]"></app-infobox>
+  </div>
+  <app-threshold *ngIf="hasThreshold"
+                 [metricId]="metric.id"
+                 [ceil]="metric['config']['threshold']['max']"
+                 [floor]="metric['config']['threshold']['min']"
+  ></app-threshold>
+  <app-polling *ngIf="hasPolling"
+               [metricId]="metric.id"
+               [unit]="metric['config']['polling']['unit']"
+               [minimum]="metric['config']['polling']['min']"
+               [base]="metric['config']['polling']['base']"
+  ></app-polling>
+</div>
+
+

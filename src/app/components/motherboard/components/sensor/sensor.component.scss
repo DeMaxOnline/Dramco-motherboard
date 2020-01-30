@@ -1,0 +1,33 @@
+h2{
+  margin-bottom: 5px;
+}
+ul{
+  list-style: none;
+}
+
+.title{
+  margin-left: 40px;
+  overflow: auto;
+  h2{
+    float: left;
+  }
+  app-infobox{
+    float: left;
+  }
+}
+
+.metric{
+  min-width: 300px;
+  width: 20%;
+}
+
+.sensor{
+  margin-right: 8%;
+  display: inline-block;
+  min-width: 300px;
+  width: 40%;
+}
+
+.sensors{
+  margin-left: 40px;
+}

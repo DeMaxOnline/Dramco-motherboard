@@ -1,0 +1,47 @@
+{
+  "PAGES": {
+    "HOME": {
+      "TITLE": "HOME"
+    },
+    "SHARED": {
+      "SETTINGS": "Settings",
+      "POWERED_BY": "Powered by DRAMCO"
+    },
+    "LANGUAGE": {
+      "TITLE": "Language",
+      "DESCRIPTION": "This is the language that will be used to translate the app"
+    },
+    "SIDEBAR": {
+      "LANGUAGE": "Language",
+      "POWERED_BY": "Powered by DRAMCO",
+      "SAVE": {
+        "TITLE": "Save"
+      },
+      "CLOSE": {
+        "TITLE": "Disconnect"
+      }
+    },
+    "SEARCH_MOTHERBOARD": {
+      "TITLE": "Connect your device"
+    },
+    "MOTHERBOARD": {
+      "SENSOR": {
+        "METRIC": {
+          "POLLING": {
+            "NAME": "Polling",
+            "TITLE": "minimum polling interval",
+            "ERRORS": {
+              "WRONG_INPUT": "The input needs to be a number and can't be null"
+            }
+          },
+          "THRESHOLD": {
+            "TITLE": "Threshold",
+            "ENABLE": {
+              "TITLE": "Enable polling interval"
+            }
+          }
+        }
+      }
+    }
+  }
+}

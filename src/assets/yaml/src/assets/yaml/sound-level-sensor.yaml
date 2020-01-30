@@ -1,0 +1,11 @@
+name: "Sound Level Sensor"
+minumum-polling-interval: 10 #in seconds
+payload-size: 1 #in bytes
+sensor-values:
+  - unit: "dB"
+    quantity: "Sound Level"
+    size: 1  
+    type: "uint8"
+threshold: true
+threshold-max: 100
+threshold-min: 0

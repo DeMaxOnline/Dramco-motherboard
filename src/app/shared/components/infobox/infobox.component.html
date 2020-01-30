@@ -1,0 +1,6 @@
+<div (mouseover)="changeText=true" (mouseout)="changeText=false">
+  <img src="./assets/icons/information.png" *ngIf="!changeText">
+  <span *ngIf="changeText">
+    {{message}}
+  </span>
+</div>

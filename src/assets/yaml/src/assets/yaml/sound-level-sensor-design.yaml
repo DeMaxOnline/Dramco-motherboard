@@ -1,0 +1,16 @@
+name: "Sound Level Sensor"
+
+minimum-polling-interval:
+    type: input.text
+
+sensor-values:
+    type: input.label
+
+threshold:
+    type: input.checkbox
+
+threshold-max:
+    type: input.slider
+
+threshold-min:
+    type: input.slider

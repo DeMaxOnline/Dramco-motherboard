@@ -1,0 +1,44 @@
+{
+  "PAGES": {
+    "HOME": {
+      "TITLE": "Thuis"
+    },
+    "SHARED": {
+      "POWERED_BY": "Powered by DRAMCO"
+    },
+    "LANGUAGE": {
+      "TITLE": "Taal",
+      "DESCRIPTION": "Deze taal zal gebruikt worden om de app te vertalen"
+    },
+    "SIDEBAR": {
+      "LANGUAGE": "Taal",
+      "POWERED_BY": "Powered by DRAMCO",
+      "SAVE": {
+        "TITLE": "Opslaan"
+      },
+      "CLOSE": {
+        "TITLE": "Ontkoppel"
+      }
+    },
+    "SEARCH_MOTHERBOARD": {
+      "TITLE": "Verbind uw apparaat"
+    },
+    "MOTHERBOARD": {
+      "SENSOR": {
+        "METRIC": {
+          "POLLING": {
+            "TITLE": "minimum polling interval",
+            "ERRORS": {
+              "WRONG_INPUT": "Het veld moeten worden ingevuld zijn"
+            }
+          },
+          "THRESHOLD": {
+            "ENABLE": {
+              "TITLE": "Inschakelen"
+            }
+          }
+        }
+      }
+    }
+  }
+}

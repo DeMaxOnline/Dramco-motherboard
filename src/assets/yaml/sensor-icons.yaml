@@ -1,0 +1,10 @@
+sensors:
+  0x01:
+    default: "sound-level-sensor.png"
+    web: "http://dramco.be/projects/iwast/icons/icon-sound-white.svg"
+  0x02:
+    default: "button-sensor.png"
+    web: "http://dramco.be/projects/iwast/icons/icon-button-white.svg"
+  0x03:
+    default: "air-quality-sensor.png"
+    web: "http://dramco.be/projects/iwast/icons/icon-air-quality-white.svg"

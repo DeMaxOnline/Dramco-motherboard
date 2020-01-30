@@ -1,0 +1,13 @@
+<div class="container-right">
+  <h2>{{ 'PAGES.LANGUAGE.TITLE' | translate }}</h2>
+  <p>
+    {{ 'PAGES.LANGUAGE.DESCRIPTION' | translate }}
+  </p>
+  <form>
+    <select [(ngModel)]="currentLanguage" (ngModelChange)="languageChange()" [ngModelOptions]="{standalone: true}">
+      <option *ngFor="let language of languages" [value]="language.code">
+        {{ language.nativeName }}
+      </option>
+    </select>
+  </form>
+</div>
