@@ -121,6 +121,21 @@ Maybe you want to execute the application in the browser with hot reload ? Just 
  - Achter dat hij dit allemaal gedaan heeft gaat hij een promise gaan returne. 
 Illustratie: Presentatie1.pptx.
 
+## most important components
+
+Services staan in src/app/core
+ - motherboardInUseService : houdt bij welke moederbord en sensor gebruikt wordt en bevat methodes om de moederbord aan te spreken a.d.h.v andere services. 
+ - serialportService : zoekt naar mogelijke moederborden
+ - communicationBuilderService: bouwt commandos ej mogelijk responses voor communicatie
+ - communicationService: communiceert met de moederbord
+ 
+Components staan src/app/components
+
+ - motherboardComponent
+ - sensorComponent: wordt gebruikt in motherboardComponent
+ - metricComponent: wordt gebruikt in sensorComponent kunnen 1 of meerdere zijn
+ - threshholdComponent: component dat gebruikt wordt om de threshold te configureren, staat in metric component
+ - pollingComponent: component dat de polling gaat configureren, staat in meyric component 
 ## Problem
 
 Bij het ophalen van data krijgen de componenten de foute waarde terug. 
