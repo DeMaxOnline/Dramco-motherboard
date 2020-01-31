@@ -124,5 +124,8 @@ Illustratie: Presentatie1.pptx.
 
 ## Problem
 
-Bij het ophalen van data krijgen de componeten de foute promise terug. 
+Bij het ophalen van data krijgen de componenten de foute promise terug. 
 Bijvoorbeeld krijgt de polling component de promise terug van de threshold component. 
+
+Ik heb dit ook al op stackoverflow gezet :
+https://stackoverflow.com/questions/59922538/async-communicating-with-serialport-gives-mixed-data
