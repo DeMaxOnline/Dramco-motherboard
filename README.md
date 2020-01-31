@@ -112,19 +112,18 @@ Maybe you want to execute the application in the browser with hot reload ? Just 
 
 ## Short introduction
 
-De applicatie moet kijken ofdat hij met een moederbord verbonden is of niet. 
-Bij het vinden van het moederbord kan de gebruiker op een lijst van sensoren klikken. 
-Als hij op de lijst van sensoren heeft geklikt zal hij metrics te zien krijgen. 
-Deze metrics hebben misschien een polling component en of een threshold component. 
-Deze componeten gaan de methode (getValues) van het motherBordInUse gaan oproepen. 
-Deze methode gaat op beurt de communicatebuilder gaan aanspreken om een commando te gaan opbouwem die hij kan gebruiken. 
-Hier achter de getValues methode de methode communicate gaan aanspreken van communicateService. 
-Achter dat hij dit allemaal gedaan heeft gaat hij een promise gaan returne. 
+ - De applicatie moet kijken ofdat hij met een moederbord verbonden is of niet. 
+ - Bij het vinden van het moederbord kan de gebruiker op een lijst van sensoren klikken. 
+ - Als hij op de lijst van sensoren heeft geklikt zal hij metrics te zien krijgen. Deze metrics hebben misschien een polling component en of een threshold component. 
+ - Deze componeten gaan de methode (getValues) van het motherBordInUse gaan oproepen. 
+ - Deze methode gaat op beurt de communicatebuilder gaan aanspreken om een commando te gaan opbouwem die hij kan gebruiken. 
+ - Hier achter de getValues methode de methode communicate gaan aanspreken van communicateService. 
+ - Achter dat hij dit allemaal gedaan heeft gaat hij een promise gaan returne. 
 Illustratie: Presentatie1.pptx.
 
 ## Problem
 
-Bij het ophalen van data krijgen de componenten de foute promise terug. 
+Bij het ophalen van data krijgen de componenten de foute waarde terug. 
 Bijvoorbeeld krijgt de polling component de promise terug van de threshold component. 
 
 Ik heb dit ook al op stackoverflow gezet :
